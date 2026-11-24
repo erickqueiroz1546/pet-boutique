@@ -1,0 +1,206 @@
+/* CONFIGURAÇÃO GERAL */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    color: #351443;
+}
+
+/* LOGO E TOPO */
+
+.container-banner {
+    max-width: 900px;
+    min-height: 60px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container-logo {
+    max-width: 200px;
+}
+
+.container-logo img {
+    width: 35px;
+}
+
+.paragrafo-topo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.paragrafo-texto {
+    font-size: 10px;
+    margin: 0;
+}
+
+/* BANNER PRINCIPAL */
+
+.container-titulo {
+    max-width: 900px;
+    min-height: 250px;
+    margin: auto;
+    padding-top: 45px;
+    background-image: url("img/banner-topo.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.textos {
+    max-width: 450px;
+    min-height: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.60);
+    box-shadow: 2px 2px 15px #999999;
+    border-radius: 5px;
+}
+
+.titulo-topo {
+    font-size: 28px;
+    color: #351443;
+}
+
+.fale-conosco {
+    background-color: #3c184e;
+    max-width: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fale-conosco a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* SERVIÇOS */
+
+.container-servicos {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+    color: #351443;
+}
+
+.lista-servico {
+    max-width: 500px;
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+.lista-servico ul {
+    padding-left: 20px;
+}
+
+.lista-servico li {
+    margin-bottom: 12px;
+}
+
+.titulo-servico {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* IMAGENS DOS SERVIÇOS */
+
+.container-imagem {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.container-imagem img {
+    width: 18%;
+    max-width: 110px;
+    min-width: 70px;
+    box-shadow: 2px 2px 8px #999999;
+}
+
+/* FAIXAS DE DESTAQUE */
+
+.container-faixa {
+    background-color: #3c184e;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+.texto-destaque {
+    font-size: 18px;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.icones {
+    margin: 15px;
+}
+
+.icones img {
+    width: 30px;
+    margin: 5px;
+}
+
+/* MARCAS */
+
+.destaque-marcas {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.destaque-marcas h3 {
+    color: #351443;
+}
+
+.container-marcas {
+    margin: 20px auto;
+}
+
+.imagem-marca {
+    width: 20%;
+    max-width: 130px;
+    min-width: 80px;
+    margin: 10px;
+}
+
+/* LOCALIZAÇÃO */
+
+.container-localizacao {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container-localizacao p {
+    font-size: 14px;
+}
+
+.container-localizacao iframe {
+    width: 100%;
+    max-width: 600px;
+    min-height: 300px;
+    box-shadow: 2px 2px 10px #999999;
+}
+
+/* RODAPÉ */
+
+.container-rodape {
+    background-color: #3c184e;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.paragrafo-rodape {
+    font-size: 13px;
+}
